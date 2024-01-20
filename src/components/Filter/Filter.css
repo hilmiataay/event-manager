@@ -1,0 +1,61 @@
+.filter-container {
+    padding: 12px 0px;
+    background-color: #F5F5F5;
+}
+
+.filter-box {
+    position: relative;
+}
+
+.filter-content {
+    display: flex;
+    justify-content: space-between;
+    width: 81vw;
+    margin: 0 auto;
+}
+
+.filter-icon-box {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .filter-icon > svg {
+    font-size: 23px;
+    margin-right: 10px;
+  }
+  
+  .location-box {
+    display: flex;
+  }
+
+.location-main-box {
+    position: absolute;
+    background-color: #fff;
+    padding: 18px;
+    top: 38px;
+    width: max-content;
+    z-index: 2;
+    border-top: 2px solid #FF0D87;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.location-filter {
+    display: grid;
+    gap: 12px;
+}
+
+.location-filter > div {
+    display: flex;
+    gap: 5px;
+}
+
+/* Tıklanmış checkbox'ın arka plan rengini değiştir */
+.location-filter input:checked {
+    background-color: #FF0D87;
+  }
+
+  /* Tıklanmış checkbox'ın arka plan rengini değiştir */
+.location-filter input + label {
+    cursor: pointer;
+  }

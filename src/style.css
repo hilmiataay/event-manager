@@ -1,0 +1,18 @@
+
+
+
+
+body{
+    background-color: #fff;
+    font-family: 'galano', sans-serif;
+    font-weight: 400;
+}
+*,
+*::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
